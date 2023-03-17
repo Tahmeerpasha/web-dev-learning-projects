@@ -1,0 +1,156 @@
+* {
+  margin: 5px;
+  padding: 20px;
+  width: 900px;
+}
+
+.header h1 {
+  text-align: center;
+  margin-left: -50px;
+  font-size: 40px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  text-align: center;
+  color: black;
+}
+.header h2 {
+  position: absolute;
+  margin-top: -80px;
+  margin-left: 540px;
+  color: blue;
+}
+
+.firstName h3 {
+  text-align: left;
+  font-size: larger;
+  font-weight: bolder;
+  margin-top: -40px;
+}
+.firstName #firstname {
+  position: absolute;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 250px;
+  height: 10px;
+  margin-left: 20px;
+  margin-top: -20px;
+  font-size: large;
+}
+
+.lastName h3 {
+  text-align: center;
+  margin-top: -116px;
+}
+.lastName #lastname {
+  margin-left: 430px;
+  margin-top: -40px;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 250px;
+  height: 10px;
+  font-size: large;
+}
+
+.Email h3 {
+  text-align: left;
+  margin-top: -50px;
+}
+.Email #email {
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 250px;
+  height: 10px;
+  margin-left: 20px;
+  margin-top: -20px;
+  font-size: large;
+}
+
+.JobRole h3 {
+  text-align: center;
+  margin-top: -150px;
+  margin-bottom: 10px;
+}
+.JobRole #jobrole {
+  margin-left: 430px;
+  margin-top: -400px;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 300px;
+  height: 15px;
+  font-size: large;
+}
+.Address h3 {
+  text-align: start;
+  margin-top: -80px;
+}
+.Address #address {
+  margin-left: 20px;
+  margin-top: -20px;
+  border-radius: 5px;
+}
+.City h3 {
+  margin-top: -40px;
+}
+.City #city {
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 250px;
+  height: 10px;
+  margin-left: 20px;
+  margin-top: -20px;
+  font-size: large;
+}
+.PinCode h3 {
+  text-align: center;
+  margin-top: -150px;
+}
+.PinCode #pincode {
+  margin-left: 430px;
+  margin-top: -400px;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 300px;
+  height: 15px;
+  font-size: large;
+}
+.StartDate h3 {
+  text-align: start;
+  margin-top: -80px;
+}
+.StartDate #date {
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 250px;
+  height: 10px;
+  margin-left: 20px;
+  margin-top: -20px;
+  font-size: large;
+}
+.CV h3 {
+  text-align: center;
+  margin-top: -150px;
+  margin-left: 60px;
+}
+.CV #cv {
+  margin-left: 430px;
+  margin-top: -400px;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 300px;
+  height: 15px;
+  font-size: large;
+}
+.button {
+  text-align: center;
+  margin-top: -50px;
+}
+.button #button {
+  margin-left: 460px;
+  width: 150px;
+  background-color: #ff0000;
+  font-size: larger;
+  color: white;
+}
+.button #button:hover {
+  cursor: pointer;
+}
