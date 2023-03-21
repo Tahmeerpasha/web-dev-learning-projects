@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="super-container-1">
+        <div class="main-container-1">
+          1
+          <div class="container-1">
+            <div class="box1">1</div>
+            <div class="box2">2</div>
+            <div class="box3">3</div>
+          </div>
+          <div class="container-2">
+            <div class="box1">1</div>
+            <div class="box2">2</div>
+            <div class="box3">3</div>
+            <div class="box4">4</div>
+          </div>
+          <div class="container-3">
+            <div class="box1">1</div>
+            <div class="box2">2</div>
+            <div class="box3">3</div>
+            <div class="box4">4</div>
+            <div class="box5">5</div>
+          </div>
+        </div>
+      </div>
+      <div class="super-container-2">2
+        <div class="main-container-1">
+            <div class="container-1">
+              <div class="box1">1</div>
+              <div class="box2">2</div>
+              <div class="box3">3</div>
+            </div>
+            <div class="container-2">
+              <div class="box1">1</div>
+              <div class="box2">2</div>
+              <div class="box3">3</div>
+              <div class="box4">4</div>
+            </div>
+            <div class="container-3">
+              <div class="box1">1</div>
+              <div class="box2">2</div>
+              <div class="box3">3</div>
+              <div class="box4">4</div>
+              <div class="box5">5</div>
+            </div>
+          </div>
+      </div>
+      <div class="super-container-3">3
+        <div class="main-container-1">
+            <div class="container-1">
+              <div class="box1">1</div>
+              <div class="box2">2</div>
+              <div class="box3">3</div>
+            </div>
+            <div class="container-2">
+              <div class="box1">1</div>
+              <div class="box2">2</div>
+              <div class="box3">3</div>
+              <div class="box4">4</div>
+            </div>
+            <div class="container-3">
+              <div class="box1">1</div>
+              <div class="box2">2</div>
+              <div class="box3">3</div>
+              <div class="box4">4</div>
+              <div class="box5">5</div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </body>
+  <style>
+    .flex-container {
+      display: flex;
+      flex-direction: column;
+      margin: 3px;
+    }
+    .super-container-1 {
+      background-color: coral;
+      height: 300px;
+      width: 500px;
+      margin: 20px;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+    }
+    .super-container-2 {
+      background-color: coral;
+      height: 300px;
+      width: 500px;
+      margin: 20px;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: row;
+    }
+    .super-container-3 {
+      background-color: coral;
+      height: 300px;
+      width: 500px;
+      margin: 20px;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: row;
+    }
+    .main-container-1 {
+      display: flex;
+      flex-direction: column;
+      border-radius: 5px;
+      height: 20px;
+      width: 30px;
+      margin: 5px;
+    }
+    .container-1 {
+      height: 200px;
+      width: 400px;
+      border-radius: 5px;
+      margin: 10px;
+      display: flex;
+      flex-direction: row;
+    }
+    .container-2 {
+      height: 200px;
+      display: flex;
+      flex-direction: row;
+      width: 400px;
+      border-radius: 5px;
+      margin: 20px;
+    }
+    .container-3 {
+      height: 200px;
+      display: flex;
+      flex-direction: row;
+      border-radius: 5px;
+      width: 400px;
+      margin: 20px;
+    }
+    .container-1 .box1 {
+      background-color: bisque;
+      height: 50px;
+      border-radius: 5px;
+      width: 120px;
+      margin: 5px;
+    }
+    .container-1 .box2 {
+      background-color: bisque;
+      height: 50px;
+      width: 120px;
+      border-radius: 5px;
+      margin: 5px;
+    }
+    .container-1 .box3 {
+      background-color: bisque;
+      height: 50px;
+      width: 120px;
+      border-radius: 5px;
+      margin: 5px;
+    }
+    .container-2 .box1 {
+      background-color: bisque;
+      height: 50px;
+      border-radius: 5px;
+      width: 70px;
+      margin: 5px;
+    }
+    .container-2 .box2 {
+      background-color: bisque;
+      height: 50px;
+      border-radius: 5px;
+      width: 70px;
+      margin: 5px;
+    }
+    .container-2 .box3 {
+      background-color: bisque;
+      height: 50px;
+      border-radius: 5px;
+      width: 70px;
+      margin: 5px;
+    }
+    .container-2 .box4 {
+      background-color: bisque;
+      height: 50px;
+      border-radius: 5px;
+      width: 70px;
+      margin: 5px;
+    }
+    .container-3 .box1 {
+      background-color: bisque;
+      height: 50px;
+      border-radius: 5px;
+      width: 70px;
+      margin: 3px;
+    }
+    .container-3 .box2 {
+      background-color: bisque;
+      height: 50px;
+      border-radius: 5px;
+      width: 70px;
+      margin: 5px;
+    }
+    .container-3 .box3 {
+      background-color: bisque;
+      height: 50px;
+      border-radius: 5px;
+      width: 70px;
+      margin: 5px;
+    }
+    .container-3 .box4 {
+      background-color: bisque;
+      height: 50px;
+      border-radius: 5px;
+      width: 70px;
+      margin: 5px;
+    }
+    .container-3 .box5 {
+      background-color: bisque;
+      border-radius: 5px;
+      height: 50px;
+      width: 70px;
+      margin: 5px;
+    }
+  </style>
+</html>
